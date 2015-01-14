@@ -1,0 +1,51 @@
+/* Put your css in here */
+body{	
+	padding-left: 5%;
+	padding-right: 5%;		
+	background:white;
+}
+.face {
+border-radius: 30px;
+border: 1px solid #ddd;
+width: 60px;
+margin: 16px; }
+
+
+.body {
+	/*height: 50vh;*/
+}
+
+#right
+{
+	float: right;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+#name
+{
+color: #0000CD;
+font-size: 2.1em;
+}
+#subtitle
+{
+color: #0000CD;
+font-size: 1.3em;
+}
+
+.logo {
+height: 75px;
+width: 221px;
+margin-right: 30px;
+}
+
+.fixed-top {
+	position: fixed;
+	top: 1em;
+}
+#right {    
+    right: 1em;
+}
+#left {    
+    left: 1em;
+}

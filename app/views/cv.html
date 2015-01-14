@@ -1,0 +1,134 @@
+<!-- My Name -->
+
+
+
+<div >
+
+<div>
+	<div id='name'>
+		{{aboutMe.name}}
+	</div> 
+		
+	<div ng-repeat="it in coordonnees.activities"><b>{{it.title + " : "}}</b><a href="{{it.lien}}" target="_blank">{{it.university}}</a></div> 
+
+	<div>
+	 <span ng-repeat="it in coordonnees.icons"><a class="logo" href="{{it.lien}}"  target="_blank"><img ng-src="{{it.icon}}"/></a></span>
+	</div>
+</div>
+
+<br/>
+
+
+
+<div layout="column" flex layout-fill>
+	<md-content class ="body">
+		<!-- Contacts -->
+		<md-toolbar class="md-theme-light">
+		    <h1 class="md-toolbar-tools">
+		      <span>{{coordonnees.label}}</span>
+		    </h1>
+		</md-toolbar>
+		<md-content>
+		<div ng-repeat="it in coordonnees.adresse">{{it.line}}</div>
+		<div>{{coordonnees.emailLabel + " : "}} <a href='mailto:{{coordonnees.email}}'><b>{{coordonnees.email}}</b></a></div>
+		</md-content>
+		<!-- About Me -->
+		<md-toolbar class="md-theme-light">
+		    <h1 class="md-toolbar-tools">
+		      <span>{{aboutMe.label}}</span>
+		    </h1>
+		</md-toolbar>
+		<md-content>
+		<div>{{aboutMe.description}}</div>
+		    <md-list>
+		      <md-item ng-repeat="item in aboutMe.diplomes">
+		        <md-item-content>
+		          <div class="md-tile-left">
+		            <a href="{{item.lien}}" target="_blank" title="{{item.university}}"><img ng-src="{{item.icon}}" class="face" alt="{{item.university}}"></a>
+		          </div>
+		          <div class="md-tile-content">
+		            <h3>{{item.year + " - " +  item.titre}} <a href="{{item.lien}}" target="_blank">{{item.university}}</a>.</h3>            
+		          </div>
+		        </md-item-content>
+		        <md-divider md-inset ng-if="!$last"></md-divider>
+		      </md-item>
+			</md-list>
+		</md-content>
+		
+		<!-- Research activities -->
+		<md-toolbar class="md-theme-light">
+		    <h1 class="md-toolbar-tools">
+		      <span>{{aboutMe.rechercheActivity.label}}</span>
+		    </h1>
+		</md-toolbar>
+		<md-content>
+		<div>{{aboutMe.rechercheActivity.description}}</div>
+			<ul>
+			<li ng-repeat="item in aboutMe.rechercheActivity.items">{{item.domaine}}</li>
+			</ul>
+		</md-content>
+		
+		<!-- Publications -->
+		<md-toolbar class="md-theme-light">
+		    <h1 class="md-toolbar-tools">
+		      <span>{{publications.label}}</span>
+		    </h1>
+		</md-toolbar>
+		<md-content ng-repeat="pub in publications.list">
+			<div id="subtitle">
+			{{pub.type}}
+			</div>
+		    <md-list>
+		      <md-item ng-repeat="item in pub.items">
+		        <md-item-content>
+		          <div class="md-tile-left">
+		            <a href="{{item.lien}}" target="_blank" title="{{item.name}}"><img ng-src="{{item.icon}}" class="face" alt="{{item.name}}"></a>
+		          </div>
+		          <div class="md-tile-content">
+		           <h3><a href="{{item.lien}}"  target="_blank">{{item.acronyme}}</a> {{" : " +  item.name}} .</h3>
+		           <h3><b>{{item.title + " "}}</b>[<a href="{{item.pdf}}" target="_blank">pdf</a>].</h3>
+		           <h4><span ng-repeat="membre in item.team"><a href="{{membre.lien}}" target="_blank">{{membre.name}}</a></span><u><b>{{aboutMe.name}}</b></u></h4>
+		          </div>
+		        </md-item-content>
+		        <md-divider md-inset ng-if="!$last"></md-divider>
+		      </md-item>
+			</md-list>
+		</md-content>
+		
+		
+		<!-- Enseignements -->
+		<md-toolbar class="md-theme-light">
+		    <h1 class="md-toolbar-tools">
+		      <span>{{enseignements.label}}</span>
+		    </h1>
+		</md-toolbar>
+		<md-content ng-repeat="ens in enseignements.list">
+			<div id ="subtitle">{{ens.year}}</div>
+		
+		    <md-list>
+		      <md-item ng-repeat="item in ens.items">
+		        <md-item-content>
+		          <div class="md-tile-left">
+		            <a href="{{item.lien}}" target="_blank" title="{{item.university}}"><img ng-src="{{item.icon}}" class="face" alt="{{item.university}}"></a>
+		          </div>
+		          <div class="md-tile-content">
+		            <h3>{{item.university + " ("}} <a href="{{item.lien}}"  target="_blank">{{item.acronyme}}</a> {{") - " + item.level + " - " + item.unity}}</h3>
+		            <h3><b>{{item.title + " (" + item.hours + ")"}}</b></h3>
+		            <ul>
+		            <li ng-repeat="it in item.descriptions">{{it.cours}}</li>
+		            </ul>            
+		            <p>
+		              {{item.description}}
+		            </p>
+		          </div>
+		        </md-item-content>
+		        <md-divider md-inset ng-if="!$last"></md-divider>
+		      </md-item>
+			</md-list>
+		</md-content>
+	</md-content>
+</div>
+
+<div class="footer">
+        <p>© 2015 {{aboutMe.name}} | Last modification: 13/01/2015</p>
+</div>

@@ -1,0 +1,379 @@
+{	
+	"coordonnees" :
+	{
+	"label" : "Contact Information",
+	"activities" :[					
+					{"title" : "PhD", "university" : "Ecole Normale Supérieure de Lyon", "lien" : "http://www.ens-lyon.fr" },
+					{"title" : "ATER", "university" : "UPMC", "lien" : "http://www.ens-lyon.fr" },
+					{"title" : "Research", "university" : "LIP6", "lien" : "http://www.ens-lyon.fr" }
+				  ],
+	"icons"	: [
+				{"icon" : "data/images/ens.gif", "lien" : "http://www.ens-lyon.fr"}			
+			],	  
+	 
+	"adresse" :[
+				{"line" : "Laboratoire de l'Informatique du Parallélisme"},
+				{"line" : "46, allée d'Italie, 69364 Lyon Cedex 07, France"},
+				{"line" : "Office : 329, GN1 Nord (3rd floor)"},
+				{"line" : "Phone : +33 4 72 72 83 52"}
+				],
+	"emailLabel": "E-mail",
+	"email" : "dounia.zaidouni@ens-lyon.fr"
+	},
+	
+	
+	"aboutMe" :
+	{
+	"label" : "Degrees",
+	"name" : "Dounia ZAIDOUNI",
+	"rechercheActivity" : {
+					"label" : "Research activities",
+					"description": "I am mainly interested in algorithm design and scheduling techniques for large-scale distributed platforms. Here are some recent work topics:",
+					"items" : [
+								{"domaine" : "..."},
+								{"domaine" : "..."}							
+							  ]
+				},
+	"diplomes" : 
+	[{	
+      "year":"2014",
+      "titre":"PhD Thesis at ",
+      "university" : "ENS Lyon",      
+      "lien" : "http://www.ens-lyon.fr",
+      "icon" : "data/images/ens.gif"
+    },{	
+      "year":"2011",
+      "titre":"French Engineer Degree in Computer Science at ",
+      "university" : "INSA Lyon",      
+      "lien" : "http://www.insa-lyon.fr",
+      "icon" : "data/images/insa.png"
+    },
+    {	
+      "year":"2011",
+      "titre":"M.Sc in Computer Science, specialization in Networking, at ",
+      "university" : "INSA Lyon",      
+      "lien" : "http://www.insa-lyon.fr",
+      "icon" : "data/images/insa.png"
+    }
+	]
+	},
+	
+	
+   "enseignements" :
+   {
+   "label" : "Teaching",
+   "list" : [{
+	     "year":"2013 - 2014",
+	     "items" : [{ 
+			      "university":"Université Lyon 1",
+			      "acronyme" : "UCBL",
+			      "lien" : "http://www.univ-lyon1.fr/",
+			      "icon" : "data/images/ucbl.png",
+			      "unity" : "Unité d'enseignement MIF11",
+			      "level" : " Master 1 Informatique",
+			      "type": "Travaux Dirigés",
+			      "title": "Réseaux",
+			      "hours":"6h",
+			      "descriptions" : 
+			      [
+			      {
+			      	"cours" : "2 séances de TDs consacrées aux performances d'un réseau, aux protocoles de transport, au routage intra-domaine et routage inter-domaine. Le cours lié à ce TD est assuré par Thomas begin."
+			      }
+			      ]
+			      
+			    },
+			    {
+			      "university":"Institut Universitaire de Technologie",
+			      "acronyme" : "IUT",
+			      "lien" : "http://iut.univ-lyon1.fr/",
+			      "icon" : "data/images/iut.jpg",
+			      "unity" : "Techniques de commercialisation",
+			      "level" : "1ère année",
+			      "type": "Travaux Dirigés",
+			      "title": "Informatiques",
+			      "hours":"24h",
+			       "descriptions" : 
+			      [
+			      {
+			      	"cours" : "4 TDs sur l'Utilisation d'OpenOffice Writer, Impress et Calc."
+			      },
+			      {
+			      	"cours" : "un TD sur le travail collaboratif (Messagerie, partage de calendrier et de documents et visioconférence)."
+			      },
+			      {
+			      	"cours" : "un TD sur la manipulation d'image avec Gimp."
+			      },
+			      {
+			      	"cours" : "un TD sur la programmation des macros en VBA."
+			      }
+			      ]
+			    },
+			    { 
+			      "university":"Ecole Normale Supérieure de Lyon",
+			      "acronyme" : "ENS",
+			      "lien" : "http://www.ens-lyon.fr",
+      			  "icon" : "data/images/ens.gif",
+			      "unity" : "Module ASR2",
+			      "level" : " Licence 3",
+			      "type": "Travaux Dirigés",
+			      "title": "Système et Réseaux",
+			      "hours":"32h",
+			      "descriptions" : 
+			      [
+			      {
+			      	"cours" : "TDs et TPs sur la Conception des systèmes d'exploitation et sur la Structure des réseaux de communication. Le cours est assuré par Anne Benoit."
+			      }
+			      ]
+			      
+			    }]
+	    },
+	    {
+	     "year" :"2012 - 2013",
+	     "items" : [{ 
+			      "university":"Université Lyon 1",
+			      "acronyme" : "UCBL",
+			      "lien" : "http://www.univ-lyon1.fr/",
+			      "icon" : "data/images/ucbl.png",
+			      "unity" : "Unité d'enseignement MIF11",
+			      "level" : " Master 1 Informatique",
+			      "type": "Travaux Dirigés",
+			      "title": "Réseaux",
+			      "hours":"18h",
+			      "descriptions" : 
+			      [
+			      {
+			      	"cours" : "2 séances de TDs consacrées à la Modulation, Multiplexage, Théorie de l'information, Codage, d´etection et correction d'erreurs. Ces TDs sont liés au cours « Réseau Codage et éléments de théorie de l'information » assuré par Florent Dupont."
+			      },
+			       {
+			      	"cours" : "2 séances de TDs consacrées aux performances d'un réseau, aux protocoles de transport, au routage intra-domaine et routage inter-domaine. Le cours lié à ce TD est assuré par Thomas begin."
+			      },
+			       {
+			      	"cours" : "2 séances de TDs consacrées au Réseaux ad hoc, Performances de 802.11 et Routage. Ces TD sont liés au cours « Accès au médium radio et Routage » assuré par Isabelle Guerin Lassous."
+			      }
+			      ]
+			    },
+			    {
+			      "university":"Université Lyon 1",
+			      "acronyme" : "UCBL",
+			      "lien" : "http://www.univ-lyon1.fr/",
+			      "icon" : "data/images/ucbl.png",
+			      "unity" : "Unité d'enseignement MIF11",
+			      "level" : " Master 1 Informatique",
+			      "type": "Travaux Pratique",
+			      "title": "Réseaux",
+			      "hours":"24h",
+			      "descriptions" : 
+			      [
+			      {
+			      	"cours" : "Séances de TPs consacrées au simulateur de réseau NS-2."
+			      }
+			      ]
+			    },
+			    {
+			      "university":"Université Lyon 1",
+			      "acronyme" : "UCBL",
+			      "lien" : "http://www.univ-lyon1.fr/",
+			      "icon" : "data/images/ucbl.png",
+			      "unity" : "Informatiques",
+			      "level" : "Licence 2 Informatique",
+			      "type": "Travaux Pratique",
+			      "title": "Architecture matérielle et logicielle",
+			      "hours":"22h",
+			      "descriptions" : 
+			      [
+			      {
+			      	"cours" : "Séances de TPs consacrés au circuits combinatoires, circuits séquentiels, processeur, programmation en langage machine."
+			      }
+			      ]
+			    }]
+    	},
+    	 {
+	     "year" :"2011 - 2012",
+	     "items" : [{ 
+			      "university":"Université Lyon 1",
+			      "acronyme" : "UCBL",
+			      "lien" : "http://www.univ-lyon1.fr/",
+			      "icon" : "data/images/ucbl.png",
+			      "unity" : "Informatiques",
+			      "level" : "Master complémentaire en Informatique",
+			      "type": "Travaux Dirigés",
+			      "title": "Réseau sans fil",
+			      "hours":"9h",
+			      "descriptions" : 
+			      [
+			      {
+			      	"cours" : "..."
+			      }
+			      ]
+			    },			    
+			    { 
+			      "university":"Institut Universitaire de Technologie",
+			      "acronyme" : "IUT",
+			      "lien" : "http://iut.univ-lyon1.fr/",
+			      "icon" : "data/images/iut.jpg",
+			      "unity" : "Résaux",
+			      "level" : "2ème année techniques de commercialisation",
+			      "type": "Travaux Dirigés",
+			      "title": "Réseaux, internet, sensibilisation à la sécurité informatique, développement de documents HTML et Macros",
+			      "hours":"30h",
+			      "descriptions" : 
+			      [
+			      {
+			      	"cours" : "..."
+			      }
+			      ]
+			    },
+			    { 
+			      "university":"Université Lyon 1",
+			      "acronyme" : "UCBL",
+			      "lien" : "http://www.univ-lyon1.fr/",
+			      "icon" : "data/images/ucbl.png",
+			      "unity" : "Informatiques",
+			      "level" : "Licence 2 Informatique",
+			      "type": "Travaux Dirigés",
+			      "title": "Architecture matérielle et logicielle",
+			      "hours":"22h",
+			      "descriptions" : 
+			      [
+			      {
+			      	"cours" : "Ces TPs sont consacrés au circuits combinatoires, circuits séquentiels, processeur, programmation en langage machine"
+			      }
+			      ]
+			    }]
+    	}
+    ]
+    },
+    
+    "publications" :
+    {
+	"label" : "Publications",
+   	"list" :    [
+   		{
+	     "type":"Journals",
+	     "items" : [{ 
+			      "name":"International Journal of High Performance Computing Applications, 2013",
+			      "acronyme" : "IJHPCA",
+			      "lien" : "http://hpc.sagepub.com/",
+			      "icon" : "data/images/IJHPCA.gif",
+			      "title": "Using group replication for resilience on exascale systems",
+			      "pdf" : "pdf/IJHPCA.pdf",
+			      "team": [ {"name" : "Marin Bougeret, ", "lien" : "http://www.lirmm.fr/~bougeret/teaching.html"},
+			      			{"name" : "Henri Casanova, ", "lien" : "http://navet.ics.hawaii.edu/~casanova/"},
+			      			{"name" : "Yves Robert, ", "lien" : "http://graal.ens-lyon.fr/~yrobert/"},
+			      			{"name" : "Frédéric Vivien et ", "lien" : "http://graal.ens-lyon.fr/~fvivien/"} ]			      			     
+			    },
+			    {
+			      "name": "Concurrency and Computation : Practice and Experience, 2013",
+			      "acronyme" : "CCPE",
+			      "lien" : "http://www.cc-pe.net/journalinfo/index.html",
+			      "icon" : "data/images/ccpe.png",
+			      "title": "Unified Model for Assessing Checkpointing Protocols at Extreme- Scale",
+			      "pdf" : "pdf/concurrency.pdf",
+			      "team": [ {"name" : "George Bosilca, ", "lien" : ""},
+			      			{"name" : "Aurélien Bouteiller, ", "lien" : ""},
+			      			{"name" : "Elisabeth Brunet, ", "lien" : ""},
+			      			{"name" : "Franck Cappello, ", "lien" : ""},
+			      			{"name" : "Jack Dongarra, ", "lien" : ""},
+			      			{"name" : "Amina Guermouche, ", "lien" : ""},
+			      			{"name" : "Thomas Herault, ", "lien" : ""},
+			      			{"name" : "Yves Robert, ", "lien" : "http://graal.ens-lyon.fr/~yrobert/"},
+			      			{"name" : "Frédéric Vivien et ", "lien" : "http://graal.ens-lyon.fr/~fvivien/"} ]
+			    }
+			    ,
+			    {
+			      "name": "Journal of Parallel and Distributed Computing, to be published, October 2013",
+			      "acronyme" : "JPDC",
+			      "lien" : "http://ees.elsevier.com/jpdc/",
+			      "icon" : "data/images/jpdc.gif",
+			      "title": "Checkpointing algorithms and fault prediction",
+			      "pdf" : "pdf/RR-8237-prediction.pdf",
+			      "team": [ {"name" : "Guillaume Aupy, ", "lien" : "http://perso.ens-lyon.fr/guillaume.aupy/"},
+			      			{"name" : "Yves Robert, ", "lien" : "http://graal.ens-lyon.fr/~yrobert/"},
+			      			{"name" : "Frédéric Vivien et ", "lien" : "http://graal.ens-lyon.fr/~fvivien/"} ]
+			    }
+			    ]
+		    },
+		    {
+		     "type" :"International Conferences",
+		     "items" : [ {
+			      "name": "The 28th IEEE International Parallel & Distributed Processing Symposium, Phoenix (Arizona) USA, May 2014",
+			      "acronyme" : "IPDPS 2014",
+			      "lien" : "http://www.ipdps.org/ipdps2014/",
+			      "icon" : "data/images/ipdps2014.jpg",
+			      "title": "Cost-Optimal Execution of Boolean Query Trees with Shared Streams",
+			      "pdf" : "pdf/ipdps2014.pdf",
+			      "team": [ {"name" : "Henri Casanova, ", "lien" : "http://navet.ics.hawaii.edu/~casanova/"},
+			      			{"name" : "Lipyeow Lim, ", "lien" : "http://www2.hawaii.edu/~lipyeow/"},
+			      			{"name" : "Yves Robert, ", "lien" : "http://graal.ens-lyon.fr/~yrobert/"},
+			      			{"name" : "Frédéric Vivien et ", "lien" : "http://graal.ens-lyon.fr/~fvivien/"}]
+			    }
+			    ,
+			     {
+			      "name": "The 19th IEEE Pacific Rim International Symposium on Dependable Computing, Vancouver, Canada, December 2013",
+			      "acronyme" : "PRDC 2013",
+			      "lien" : "http://prdc.dependability.org/2013/",
+			      "icon" : "data/images/prdc2013.jpg",
+			      "title": "Checkpointing strategies with prediction windows",
+			      "pdf" : "pdf/PRDC13_checkpoint.pdf",
+			      "team": [ {"name" : "Guillaume Aupy, ", "lien" : "http://perso.ens-lyon.fr/guillaume.aupy/"},
+			      			{"name" : "Yves Robert, ", "lien" : "http://graal.ens-lyon.fr/~yrobert/"},
+			      			{"name" : "Frédéric Vivien et ", "lien" : "http://graal.ens-lyon.fr/~fvivien/"} ]
+			    }
+			    ,
+			    {
+			      "name": "The 19th IEEE Pacific Rim International Symposium on Dependable Computing, Vancouver, Canada, December 2013",
+			      "acronyme" : "PRDC 2013",
+			      "lien" : "http://prdc.dependability.org/2013/",
+			      "icon" : "data/images/prdc2013.jpg",
+			      "title": "On the Combination of Silent Error Detection and Checkpointing",
+			      "pdf" : "pdf/PRDC13_silent-errors.pdf",
+			      "team": [ {"name" : "Guillaume Aupy, ", "lien" : "http://perso.ens-lyon.fr/guillaume.aupy/"},
+			      			{"name" : "Anne Benoit, ", "lien" : "http://graal.ens-lyon.fr/~abenoit/anne.benoit"},
+			      			{"name" : "Thomas Hérault, ", "lien" : "https://www.lri.fr/~herault/introduction.fr.php"},
+			      			{"name" : "Yves Robert, ", "lien" : "http://graal.ens-lyon.fr/~yrobert/"},
+			      			{"name" : "Frédéric Vivien et ", "lien" : "http://graal.ens-lyon.fr/~fvivien/"} ]
+			    }
+			    ,
+			    {
+			      "name": "2nd Workshop on Fault-Tolerance for HPC at Extreme Scale, June 2012",
+			      "acronyme" : "FTXS 2012",
+			      "lien" : "https://sites.google.com/site/ftxsworkshop/home/ftxs-2012",
+			      "icon" : "data/images/FTXS.gif",
+			      "title": "On the complexity of scheduling checkpoints for computational workflows",
+			      "pdf" : "pdf/ftxs.pdf",
+			      "team": [ {"name" : "Yves Robert, ", "lien" : "http://graal.ens-lyon.fr/~yrobert/"},
+			      			{"name" : "Frédéric Vivien et ", "lien" : "http://graal.ens-lyon.fr/~fvivien/"} ]
+			    }
+			    ]
+	    	},
+	    	 {
+		     "type" :"Book chapter",
+		     "items" : [ {
+			      "name": "2015, To appear",
+			      "acronyme" : "Springer",
+			      "lien" : "http://www.ipdps.org/ipdps2014/",
+			      "icon" : "data/images/Springer.png",
+			      "title": "Fault-tolerant techniques for High-Performance Computing, ch. Using replication for resilience on exascale systems",
+			      "pdf" : "",
+			      "team": [ {"name" : "Henri Casanova, ", "lien" : "http://navet.ics.hawaii.edu/~casanova/"},
+			      			{"name" : "Frédéric Vivien et ", "lien" : "http://graal.ens-lyon.fr/~fvivien/"} ]
+			    }			   			   
+			    ]
+	    	},
+	    	 {
+		     "type" :"Thesis manuscript",
+		     "items" : [ {
+			      "name": "PhD 2014",
+			      "acronyme" : "ENS de Lyon",
+			      "lien" : "http://www.ens-lyon.fr",
+			      "icon" : "data/images/ens.gif",
+			      "title": "Combining checkpointing and other resilience mechanisms for exascale systems",
+			      "pdf" : "pdf/thesis.pdf",
+			      "team": ""
+			    }			   			   
+			    ]
+	    	}
+		]	
+	}
+	
+}
